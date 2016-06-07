@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  root "page#home"
+  root "pages#home"
 
-  get 'about' => 'page#about'
+  get 'about' => 'pages#about'
 
-  get 'contact' => 'page#contact'
+  get 'contact' => 'pages#contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
