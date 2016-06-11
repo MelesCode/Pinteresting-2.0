@@ -1,6 +1,18 @@
-$body-bg: #cc1010;
-$navbar-inverse-link-color: white;
-$brand-primary: #cc1010;
-$jumbotron-bg: #95a5a6;
-@import "bootstrap-sprockets";
-@import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$body-bg: 															#cc1010;
+$font-family-sans-serif:           'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-inverse-link-color: 							white;
+$brand-default: 												#7f8c8d;
+$brand-primary: 												#cc1010;
+$jumbotron-bg: 													#bdc3c7;
+@import 									"bootstrap-sprockets";
+@import 														'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
